@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Take-Care</string>
+    <string name="splashHeading">Take Care</string>
+    <string name="splashTagLine">A.I powered COVID-19 vulnerability Test.</string>
 </resources>
