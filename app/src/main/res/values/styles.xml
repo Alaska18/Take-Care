@@ -7,7 +7,16 @@
         <item name="colorPrimaryDark">@color/splashBackground</item>
         <item name="colorAccent">@color/splashBackground</item>
     </style>
-    <style name="Splash" parent="Theme.AppCompat.Light.NoActionBar">
+
+    <style name="Splash" parent="Theme.AppCompat.Light.NoActionBar"></style>
+
+    <style name="Splash.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
     </style>
+
+    <style name="Splash.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Splash.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>
