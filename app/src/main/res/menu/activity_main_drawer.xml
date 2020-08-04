@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:drawableLeft="@android:drawable/ic_dialog_info"
+            android:title="Patient's data" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:drawableLeft="@android:drawable/ic_dialog_map"
+
+            android:title="State level daily" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:drawableLeft="@android:drawable/ic_menu_agenda"
+            android:title="Tests Day Wise" />
+    </group>
+</menu>
